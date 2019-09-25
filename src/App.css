@@ -7,7 +7,7 @@
     padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -19,4 +19,71 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+
+    margin: 25px auto;
+  }
+
+  .calContainer {
+      display: flex;
+      flex-direction: row;
+      padding: 0 10px;
+  }
+
+  /* CSS for Sepecial Buttons */
+  .specialButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .specialButtons {
+      font-size: 30px;
+      width: 90px;
+      height: 90px;
+      padding: 10px;
+      margin: 15px;
+      background-color: #225C9E;
+      color: white;
+      border-radius: 50%;
+  }
+
+  /* CSS for Numbers */
+
+  .numberButtonContainer {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+
+  }
+  .numberButton{
+    font-size: 30px;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    margin: 15px;
+      background-color: #184378;
+      color: white;
+      border-radius: 50%;
+  }
+  .numberButtonZero {
+    width: 50%;
+    height: 90px;
+    border-radius: 50%;
+
+  }
+  /* CSS for Operator Buttons */
+  .operatorButtonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .operatorButton {
+    font-size: 30px;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    margin: 15px;
+      background-color: #2A7193;
+      color: white;
+      border-radius: 50%;
   }
